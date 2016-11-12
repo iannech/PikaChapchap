@@ -18,6 +18,56 @@
         android:layout_alignParentStart="true"
         android:layout_marginTop="56dp"
         android:entries="@array/beans_array"
-        android:prompt="@array/beans_prompt"
         android:id="@+id/spinner1" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="34dp"
+        android:entries="@array/soakedin_array"
+        android:id="@+id/spinner2" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+        android:entries="@array/temp_array"
+        android:id="@+id/spinner3" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:entries="@array/humidity_array"
+        android:id="@+id/spinner4" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="33dp"
+        android:entries="@array/storage_array"
+        android:id="@+id/spinner5" />
+
+    <Button
+        android:text="Submit"
+        android:textColor="#FFFFFF"
+        android:background="@color/colorPrimary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:id="@+id/button_submit" />
 </RelativeLayout>

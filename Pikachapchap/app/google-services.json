@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "755836154408",
+    "firebase_url": "https://pikachapchap.firebaseio.com",
+    "project_id": "pikachapchap",
+    "storage_bucket": "pikachapchap.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:755836154408:android:6e90482efe8b9b24",
+        "android_client_info": {
+          "package_name": "com.example.gyleodhis.pikachapchap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "755836154408-656p70hjit42fkoebbblp4v4jjn7dra1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gyleodhis.pikachapchap",
+            "certificate_hash": "7CADA8D214F2DCF57B78FD2B22DFD68C212212CA"
+          }
+        },
+        {
+          "client_id": "755836154408-i34vhq12lg7gcq2vplt275pi2j1lpmf8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcIdvaW715FicHYm57bFx8K6xP-xcr_Y4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "755836154408-i34vhq12lg7gcq2vplt275pi2j1lpmf8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

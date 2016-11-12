@@ -1,12 +1,1773 @@
 <resources>
     <string name="app_name">Pikachapchap</string>
 
-    <string name="beans_prompt">Choose Beans</string>
     <string-array name="beans_array">
+        <item>Beans</item>
         <item>Rose coco</item>
         <item>Canadian wonder</item>
         <item>Pinto</item>
         <item>red Haricot</item>
-
     </string-array>
+
+    <string-array name="soakedin_array">
+        <item>Soaked In</item>
+        <item>Not soaked</item>
+        <item>Distilled water</item>
+        <item>Sodium carbonate</item>
+    </string-array>
+
+    <string-array name="temp_array">
+        <item>Temperature</item>
+        <item>45</item>
+        <item>25</item>
+        <item>35</item>
+    </string-array>
+
+    <string-array name="humidity_array">
+        <item>Humidity</item>
+        <item>75</item>
+        <item>85</item>
+    </string-array>
+
+    <string-array name="storage_array">
+        <item>Storage time in Months</item>
+        <item>12</item>
+        <item>8</item>
+        <item>6</item>
+        <item>4</item>
+        <item>2</item>
+        <item>0</item>
+    </string-array>
+
+    <string name="dataset">
+ [
+  {
+    \"id\": 1,
+    \"beans_variery\": \"Rose coco\",
+    \"soaked\": \"Distilled water\",
+    \"temperature\": 45,
+    \"Humidy\": 75,
+    \"storage_months\": 6,
+    \"cooking_minutes\": 240
+  },
+  {
+    \"id\": 2,
+    \"beans_variery\": \"Canadian wonder\",
+    \"soaked\": \"Distilled water\",
+    \"temperature\": 45,
+    \"Humidy\": 75,
+    \"storage_months\": 6,
+    \"cooking_minutes\": 300
+  },
+  {
+    \"id\": 3,
+    \"beans_variery\": \"Rose coco\",
+    \"soaked\": \"Sodium carbonate\",
+    \"temperature\": 45,
+    \"Humidy\": 75,
+    \"storage_months\": 6,
+    \"cooking_minutes\": 150
+  },
+  {
+    \"id\": 4,
+    \"beans_variery\": \"Canadian wonder\",
+    \"soaked\": \"Sodium carbonate\",
+    \"temperature\": 45,
+    \"Humidy\": 75,
+    \"storage_months\": 6,
+    \"cooking_minutes\": 150
+  },
+  {
+    \"id\": 5,
+    \"beans_variery\": \"Rose coco\",
+    \"soaked\": \"Not Soaked\",
+    \"temperature\": 45,
+    \"Humidy\": 75,
+    \"storage_months\": 6,
+    \"cooking_minutes\": 390
+  },
+  {
+    \"id\": 6,
+    \"beans_variery\": \"Canadian wonder\",
+    \"soaked\": \"Not Soaked\",
+    \"temperature\": 45,
+    \"Humidy\": 75,
+    \"storage_months\": 6,
+    \"cooking_minutes\": 420
+  },
+  {
+    \"id\": 7,
+    \"beans_variery\": \"Rose coco\",
+    \"soaked\": \"Distilled water\",
+    \"temperature\": 45,
+    \"Humidy\": 75,
+    \"storage_months\": 4,
+    \"cooking_minutes\": 210
+  },
+  {
+    \"id\": 8,
+    \"beans_variery\": \"Canadian wonder\",
+    \"soaked\": \"Distilled water\",
+    \"temperature\": 45,
+    \"Humidy\": 75,
+    \"storage_months\": 4,
+    \"cooking_minutes\": 210
+  },
+  {
+    \"id\": 9,
+    \"beans_variery\": \"Rose coco\",
+    \"soaked\": \"Sodium carbonate\",
+    \"temperature\": 45,
+    \"Humidy\": 75,
+    \"storage_months\": 4,
+    \"cooking_minutes\": 135
+  },
+  {
+    \"id\": 10,
+    \"beans_variery\": \"Canadian wonder\",
+    \"soaked\": \"Sodium carbonate\",
+    \"temperature\": 45,
+    \"Humidy\": 75,
+    \"storage_months\": 4,
+    \"cooking_minutes\": 135
+  },
+  {
+    \"id\": 11,
+    \"beans_variery\": \"Rose coco\",
+    \"soaked\": \"Not Soaked\",
+    \"temperature\": 45,
+    \"Humidy\": 75,
+    \"storage_months\": 4,
+    \"cooking_minutes\": 270
+  },
+  {
+    \"id\": 12,
+    \"beans_variery\": \"Canadian wonder\",
+    \"soaked\": \"Not Soaked\",
+    \"temperature\": 45,
+    \"Humidy\": 75,
+    \"storage_months\": 4,
+    \"cooking_minutes\": 330
+  },
+  {
+    \"id\": 13,
+    \"beans_variery\": \"Rose coco\",
+    \"soaked\": \"Distilled water\",
+    \"temperature\": 45,
+    \"Humidy\": 75,
+    \"storage_months\": 2,
+    \"cooking_minutes\": 150
+  },
+  {
+    \"id\": 14,
+    \"beans_variery\": \"Canadian wonder\",
+    \"soaked\": \"Distilled water\",
+    \"temperature\": 45,
+    \"Humidy\": 75,
+    \"storage_months\": 2,
+    \"cooking_minutes\": 150
+  },
+  {
+    \"id\": 15,
+    \"beans_variery\": \"Rose coco\",
+    \"soaked\": \"Sodium carbonate?\",
+    \"temperature\": 45,
+    \"Humidy\": 75,
+    \"storage_months\": 2,
+    \"cooking_minutes\": 120
+  },
+  {
+    \"id\": 16,
+    \"beans_variery\": \"Canadian wonder\",
+    \"soaked\": \"Sodium carbonate\",
+    \"temperature\": 45,
+    \"Humidy\": 75,
+    \"storage_months\": 2,
+    \"cooking_minutes\": 135
+  },
+  {
+    \"id\": 17,
+    \"beans_variery\": \"Rose coco\",
+    \"soaked\": \"Not Soaked\",
+    \"temperature\": 45,
+    \"Humidy\": 75,
+    \"storage_months\": 2,
+    \"cooking_minutes\": 240
+  },
+  {
+    \"id\": 18,
+    \"beans_variery\": \"Canadian wonder\",
+    \"soaked\": \"Not Soaked\",
+    \"temperature\": 45,
+    \"Humidy\": 75,
+    \"storage_months\": 2,
+    \"cooking_minutes\": 270
+  },
+  {
+    \"id\": 19,
+    \"beans_variery\": \"Rose coco\",
+    \"soaked\": \"Not Soaked\",
+    \"temperature\": 45,
+    \"Humidy\": 75,
+    \"storage_months\": 0,
+    \"cooking_minutes\": 150
+  },
+  {
+    \"id\": 20,
+    \"beans_variery\": \"Canadian wonder\",
+    \"soaked\": \"Not Soaked\",
+    \"temperature\": 45,
+    \"Humidy\": 75,
+    \"storage_months\": 0,
+    \"cooking_minutes\": 150
+  },
+  {
+    \"id\": 21,
+    \"beans_variery\": \"Rose coco\",
+    \"soaked\": \"Sodium carbonate?\",
+    \"temperature\": 45,
+    \"Humidy\": 75,
+    \"storage_months\": 0,
+    \"cooking_minutes\": 60
+  },
+  {
+    \"id\": 22,
+    \"beans_variery\": \"Canadian wonder\",
+    \"soaked\": \"Sodium carbonate\",
+    \"temperature\": 45,
+    \"Humidy\": 75,
+    \"storage_months\": 0,
+    \"cooking_minutes\": 30
+  },
+  {
+    \"id\": 23,
+    \"beans_variery\": \"Rose coco\",
+    \"soaked\": \"Distilled water\",
+    \"temperature\": 45,
+    \"Humidy\": 75,
+    \"storage_months\": 0,
+    \"cooking_minutes\": 90
+  },
+  {
+    \"id\": 24,
+    \"beans_variery\": \"Canadian wonder\",
+    \"soaked\": \"Distilled water\",
+    \"temperature\": 45,
+    \"Humidy\": 75,
+    \"storage_months\": 0,
+    \"cooking_minutes\": 120
+  },
+  {
+    \"id\": 25,
+    \"beans_variery\": \"Pinto\",
+    \"soaked\": \"Distilled water\",
+    \"temperature\": 45,
+    \"Humidy\": 75,
+    \"storage_months\": 6,
+    \"cooking_minutes\": 310
+  },
+  {
+    \"id\": 26,
+    \"beans_variery\": \"Red Haricot\",
+    \"soaked\": \"Distilled water\",
+    \"temperature\": 45,
+    \"Humidy\": 75,
+    \"storage_months\": 6,
+    \"cooking_minutes\": 270
+  },
+  {
+    \"id\": 27,
+    \"beans_variery\": \"Pinto\",
+    \"soaked\": \"Sodium carbonate?\",
+    \"temperature\": 45,
+    \"Humidy\": 75,
+    \"storage_months\": 6,
+    \"cooking_minutes\": 150
+  },
+  {
+    \"id\": 28,
+    \"beans_variery\": \"Red Haricot\",
+    \"soaked\": \"Sodium carbonate\",
+    \"temperature\": 45,
+    \"Humidy\": 75,
+    \"storage_months\": 6,
+    \"cooking_minutes\": 135
+  },
+  {
+    \"id\": 29,
+    \"beans_variery\": \"Pinto\",
+    \"soaked\": \"Not Soaked\",
+    \"temperature\": 45,
+    \"Humidy\": 75,
+    \"storage_months\": 6,
+    \"cooking_minutes\": 450
+  },
+  {
+    \"id\": 30,
+    \"beans_variery\": \"Red Haricot\",
+    \"soaked\": \"Not Soaked\",
+    \"temperature\": 45,
+    \"Humidy\": 75,
+    \"storage_months\": 6,
+    \"cooking_minutes\": 360
+  },
+  {
+    \"id\": 31,
+    \"beans_variery\": \"Pinto\",
+    \"soaked\": \"Distilled water\",
+    \"temperature\": 45,
+    \"Humidy\": 75,
+    \"storage_months\": 4,
+    \"cooking_minutes\": 270
+  },
+  {
+    \"id\": 32,
+    \"beans_variery\": \"Red Haricot\",
+    \"soaked\": \"Distilled water\",
+    \"temperature\": 45,
+    \"Humidy\": 75,
+    \"storage_months\": 4,
+    \"cooking_minutes\": 240
+  },
+  {
+    \"id\": 33,
+    \"beans_variery\": \"Pinto\",
+    \"soaked\": \"Sodium carbonate?\",
+    \"temperature\": 45,
+    \"Humidy\": 75,
+    \"storage_months\": 4,
+    \"cooking_minutes\": 135
+  },
+  {
+    \"id\": 34,
+    \"beans_variery\": \"Red Haricot\",
+    \"soaked\": \"Sodium carbonate\",
+    \"temperature\": 45,
+    \"Humidy\": 75,
+    \"storage_months\": 4,
+    \"cooking_minutes\": 135
+  },
+  {
+    \"id\": 35,
+    \"beans_variery\": \"Pinto\",
+    \"soaked\": \"Not Soaked\",
+    \"temperature\": 45,
+    \"Humidy\": 75,
+    \"storage_months\": 4,
+    \"cooking_minutes\": 330
+  },
+  {
+    \"id\": 36,
+    \"beans_variery\": \"Red Haricot\",
+    \"soaked\": \"Not Soaked\",
+    \"temperature\": 45,
+    \"Humidy\": 75,
+    \"storage_months\": 4,
+    \"cooking_minutes\": 300
+  },
+  {
+    \"id\": 37,
+    \"beans_variery\": \"Pinto\",
+    \"soaked\": \"Distilled water\",
+    \"temperature\": 45,
+    \"Humidy\": 75,
+    \"storage_months\": 2,
+    \"cooking_minutes\": 210
+  },
+  {
+    \"id\": 38,
+    \"beans_variery\": \"Red Haricot\",
+    \"soaked\": \"Distilled water\",
+    \"temperature\": 45,
+    \"Humidy\": 75,
+    \"storage_months\": 2,
+    \"cooking_minutes\": 210
+  },
+  {
+    \"id\": 39,
+    \"beans_variery\": \"Pinto\",
+    \"soaked\": \"Sodium carbonate\",
+    \"temperature\": 45,
+    \"Humidy\": 75,
+    \"storage_months\": 2,
+    \"cooking_minutes\": 120
+  },
+  {
+    \"id\": 40,
+    \"beans_variery\": \"Red Haricot\",
+    \"soaked\": \"Sodium carbonate\",
+    \"temperature\": 45,
+    \"Humidy\": 75,
+    \"storage_months\": 2,
+    \"cooking_minutes\": 90
+  },
+  {
+    \"id\": 41,
+    \"beans_variery\": \"Pinto\",
+    \"soaked\": \"Not Soaked\",
+    \"temperature\": 45,
+    \"Humidy\": 75,
+    \"storage_months\": 2,
+    \"cooking_minutes\": 300
+  },
+  {
+    \"id\": 42,
+    \"beans_variery\": \"Red Haricot\",
+    \"soaked\": \"Not Soaked\",
+    \"temperature\": 45,
+    \"Humidy\": 75,
+    \"storage_months\": 2,
+    \"cooking_minutes\": 240
+  },
+  {
+    \"id\": 43,
+    \"beans_variery\": \"Pinto\",
+    \"soaked\": \"Not Soaked\",
+    \"temperature\": 45,
+    \"Humidy\": 75,
+    \"storage_months\": 0,
+    \"cooking_minutes\": 180
+  },
+  {
+    \"id\": 44,
+    \"beans_variery\": \"Red Haricot\",
+    \"soaked\": \"Not Soaked\",
+    \"temperature\": 45,
+    \"Humidy\": 75,
+    \"storage_months\": 0,
+    \"cooking_minutes\": 180
+  },
+  {
+    \"id\": 45,
+    \"beans_variery\": \"Pinto\",
+    \"soaked\": \"Sodium carbonate\",
+    \"temperature\": 45,
+    \"Humidy\": 75,
+    \"storage_months\": 0,
+    \"cooking_minutes\": 30
+  },
+  {
+    \"id\": 46,
+    \"beans_variery\": \"Red Haricot\",
+    \"soaked\": \"Sodium carbonate\",
+    \"temperature\": 45,
+    \"Humidy\": 75,
+    \"storage_months\": 0,
+    \"cooking_minutes\": 30
+  },
+  {
+    \"id\": 47,
+    \"beans_variery\": \"Pinto\",
+    \"soaked\": \"Distilled water\",
+    \"temperature\": 45,
+    \"Humidy\": 75,
+    \"storage_months\": 0,
+    \"cooking_minutes\": 90
+  },
+  {
+    \"id\": 48,
+    \"beans_variery\": \"Red Haricot\",
+    \"soaked\": \"Distilled water\",
+    \"temperature\": 45,
+    \"Humidy\": 75,
+    \"storage_months\": 0,
+    \"cooking_minutes\": 90
+  },
+  {
+    \"id\": 49,
+    \"beans_variery\": \"Rose coco\",
+    \"soaked\": \"Not Soaked\",
+    \"temperature\": 25,
+    \"Humidy\": 75,
+    \"storage_months\": 12,
+    \"cooking_minutes\": 330
+  },
+  {
+    \"id\": 50,
+    \"beans_variery\": \"Canadian wonder\",
+    \"soaked\": \"Not Soaked\",
+    \"temperature\": 25,
+    \"Humidy\": 75,
+    \"storage_months\": 12,
+    \"cooking_minutes\": 360
+  },
+  {
+    \"id\": 51,
+    \"beans_variery\": \"Rose coco\",
+    \"soaked\": \"Sodium carbonate?\",
+    \"temperature\": 25,
+    \"Humidy\": 75,
+    \"storage_months\": 12,
+    \"cooking_minutes\": 150
+  },
+  {
+    \"id\": 52,
+    \"beans_variery\": \"Canadian wonder\",
+    \"soaked\": \"Sodium carbonate\",
+    \"temperature\": 25,
+    \"Humidy\": 75,
+    \"storage_months\": 12,
+    \"cooking_minutes\": 180
+  },
+  {
+    \"id\": 53,
+    \"beans_variery\": \"Rose coco\",
+    \"soaked\": \"Distilled water\",
+    \"temperature\": 25,
+    \"Humidy\": 75,
+    \"storage_months\": 12,
+    \"cooking_minutes\": 210
+  },
+  {
+    \"id\": 54,
+    \"beans_variery\": \"Canadian wonder\",
+    \"soaked\": \"Distilled water\",
+    \"temperature\": 25,
+    \"Humidy\": 75,
+    \"storage_months\": 12,
+    \"cooking_minutes\": 240
+  },
+  {
+    \"id\": 55,
+    \"beans_variery\": \"Rose coco\",
+    \"soaked\": \"Not Soaked\",
+    \"temperature\": 25,
+    \"Humidy\": 75,
+    \"storage_months\": 8,
+    \"cooking_minutes\": 300
+  },
+  {
+    \"id\": 56,
+    \"beans_variery\": \"Canadian wonder\",
+    \"soaked\": \"Not Soaked\",
+    \"temperature\": 25,
+    \"Humidy\": 75,
+    \"storage_months\": 8,
+    \"cooking_minutes\": 330
+  },
+  {
+    \"id\": 57,
+    \"beans_variery\": \"Rose coco\",
+    \"soaked\": \"Distilled water\",
+    \"temperature\": 25,
+    \"Humidy\": 75,
+    \"storage_months\": 8,
+    \"cooking_minutes\": 180
+  },
+  {
+    \"id\": 58,
+    \"beans_variery\": \"Canadian wonder\",
+    \"soaked\": \"Distilled water\",
+    \"temperature\": 25,
+    \"Humidy\": 75,
+    \"storage_months\": 8,
+    \"cooking_minutes\": 180
+  },
+  {
+    \"id\": 59,
+    \"beans_variery\": \"Rose coco\",
+    \"soaked\": \"Sodium carbonate\",
+    \"temperature\": 25,
+    \"Humidy\": 75,
+    \"storage_months\": 8,
+    \"cooking_minutes\": 135
+  },
+  {
+    \"id\": 60,
+    \"beans_variery\": \"Canadian wonder\",
+    \"soaked\": \"Sodium carbonate\",
+    \"temperature\": 25,
+    \"Humidy\": 75,
+    \"storage_months\": 8,
+    \"cooking_minutes\": 165
+  },
+  {
+    \"id\": 61,
+    \"beans_variery\": \"Rose coco\",
+    \"soaked\": \"Distilled water\",
+    \"temperature\": 25,
+    \"Humidy\": 75,
+    \"storage_months\": 4,
+    \"cooking_minutes\": 150
+  },
+  {
+    \"id\": 62,
+    \"beans_variery\": \"Canadian wonder\",
+    \"soaked\": \"Distilled water\",
+    \"temperature\": 25,
+    \"Humidy\": 75,
+    \"storage_months\": 4,
+    \"cooking_minutes\": 180
+  },
+  {
+    \"id\": 63,
+    \"beans_variery\": \"Rose coco\",
+    \"soaked\": \"Sodium carbonate\",
+    \"temperature\": 25,
+    \"Humidy\": 75,
+    \"storage_months\": 4,
+    \"cooking_minutes\": 120
+  },
+  {
+    \"id\": 64,
+    \"beans_variery\": \"Canadian wonder\",
+    \"soaked\": \"Sodium carbonate\",
+    \"temperature\": 25,
+    \"Humidy\": 75,
+    \"storage_months\": 4,
+    \"cooking_minutes\": 150
+  },
+  {
+    \"id\": 65,
+    \"beans_variery\": \"Rose coco\",
+    \"soaked\": \"Not Soaked\",
+    \"temperature\": 25,
+    \"Humidy\": 75,
+    \"storage_months\": 4,
+    \"cooking_minutes\": 270
+  },
+  {
+    \"id\": 66,
+    \"beans_variery\": \"Canadian wonder\",
+    \"soaked\": \"Not Soaked\",
+    \"temperature\": 25,
+    \"Humidy\": 75,
+    \"storage_months\": 4,
+    \"cooking_minutes\": 300
+  },
+  {
+    \"id\": 67,
+    \"beans_variery\": \"Rose coco\",
+    \"soaked\": \"Not Soaked\",
+    \"temperature\": 25,
+    \"Humidy\": 75,
+    \"storage_months\": 0,
+    \"cooking_minutes\": 150
+  },
+  {
+    \"id\": 68,
+    \"beans_variery\": \"Canadian wonder\",
+    \"soaked\": \"Not Soaked\",
+    \"temperature\": 25,
+    \"Humidy\": 75,
+    \"storage_months\": 0,
+    \"cooking_minutes\": 150
+  },
+  {
+    \"id\": 69,
+    \"beans_variery\": \"Rose coco\",
+    \"soaked\": \"Sodium carbonate\",
+    \"temperature\": 25,
+    \"Humidy\": 75,
+    \"storage_months\": 0,
+    \"cooking_minutes\": 45
+  },
+  {
+    \"id\": 70,
+    \"beans_variery\": \"Canadian wonder\",
+    \"soaked\": \"Sodium carbonate\",
+    \"temperature\": 25,
+    \"Humidy\": 75,
+    \"storage_months\": 0,
+    \"cooking_minutes\": 30
+  },
+  {
+    \"id\": 71,
+    \"beans_variery\": \"Rose coco\",
+    \"soaked\": \"Distilled water\",
+    \"temperature\": 25,
+    \"Humidy\": 75,
+    \"storage_months\": 0,
+    \"cooking_minutes\": 90
+  },
+  {
+    \"id\": 72,
+    \"beans_variery\": \"Canadian wonder\",
+    \"soaked\": \"Distilled water\",
+    \"temperature\": 25,
+    \"Humidy\": 75,
+    \"storage_months\": 0,
+    \"cooking_minutes\": 120
+  },
+  {
+    \"id\": 73,
+    \"beans_variery\": \"Pinto\",
+    \"soaked\": \"Not Soaked\",
+    \"temperature\": 25,
+    \"Humidy\": 75,
+    \"storage_months\": 12,
+    \"cooking_minutes\": 330
+  },
+  {
+    \"id\": 74,
+    \"beans_variery\": \"Red Haricot\",
+    \"soaked\": \"Not Soaked\",
+    \"temperature\": 25,
+    \"Humidy\": 75,
+    \"storage_months\": 12,
+    \"cooking_minutes\": 270
+  },
+  {
+    \"id\": 75,
+    \"beans_variery\": \"Pinto\",
+    \"soaked\": \"Sodium carbonate\",
+    \"temperature\": 25,
+    \"Humidy\": 75,
+    \"storage_months\": 12,
+    \"cooking_minutes\": 180
+  },
+  {
+    \"id\": 76,
+    \"beans_variery\": \"Red Haricot\",
+    \"soaked\": \"Sodium carbonate\",
+    \"temperature\": 25,
+    \"Humidy\": 75,
+    \"storage_months\": 12,
+    \"cooking_minutes\": 150
+  },
+  {
+    \"id\": 77,
+    \"beans_variery\": \"Pinto\",
+    \"soaked\": \"Distilled water\",
+    \"temperature\": 25,
+    \"Humidy\": 75,
+    \"storage_months\": 12,
+    \"cooking_minutes\": 240
+  },
+  {
+    \"id\": 78,
+    \"beans_variery\": \"Red Haricot\",
+    \"soaked\": \"Distilled water\",
+    \"temperature\": 25,
+    \"Humidy\": 75,
+    \"storage_months\": 12,
+    \"cooking_minutes\": 210
+  },
+  {
+    \"id\": 79,
+    \"beans_variery\": \"Pinto\",
+    \"soaked\": \"Not Soaked\",
+    \"temperature\": 25,
+    \"Humidy\": 75,
+    \"storage_months\": 8,
+    \"cooking_minutes\": 330
+  },
+  {
+    \"id\": 80,
+    \"beans_variery\": \"Red Haricot\",
+    \"soaked\": \"Not Soaked\",
+    \"temperature\": 25,
+    \"Humidy\": 75,
+    \"storage_months\": 8,
+    \"cooking_minutes\": 270
+  },
+  {
+    \"id\": 81,
+    \"beans_variery\": \"Pinto\",
+    \"soaked\": \"Distilled water\",
+    \"temperature\": 25,
+    \"Humidy\": 75,
+    \"storage_months\": 8,
+    \"cooking_minutes\": 210
+  },
+  {
+    \"id\": 82,
+    \"beans_variery\": \"Red Haricot\",
+    \"soaked\": \"Distilled water\",
+    \"temperature\": 25,
+    \"Humidy\": 75,
+    \"storage_months\": 8,
+    \"cooking_minutes\": 180
+  },
+  {
+    \"id\": 83,
+    \"beans_variery\": \"Pinto\",
+    \"soaked\": \"Sodium carbonate\",
+    \"temperature\": 25,
+    \"Humidy\": 75,
+    \"storage_months\": 8,
+    \"cooking_minutes\": 135
+  },
+  {
+    \"id\": 84,
+    \"beans_variery\": \"Red Haricot\",
+    \"soaked\": \"Sodium carbonate\",
+    \"temperature\": 25,
+    \"Humidy\": 75,
+    \"storage_months\": 8,
+    \"cooking_minutes\": 120
+  },
+  {
+    \"id\": 85,
+    \"beans_variery\": \"Pinto\",
+    \"soaked\": \"Distilled water\",
+    \"temperature\": 25,
+    \"Humidy\": 75,
+    \"storage_months\": 4,
+    \"cooking_minutes\": 180
+  },
+  {
+    \"id\": 86,
+    \"beans_variery\": \"Red Haricot\",
+    \"soaked\": \"Distilled water\",
+    \"temperature\": 25,
+    \"Humidy\": 75,
+    \"storage_months\": 4,
+    \"cooking_minutes\": 180
+  },
+  {
+    \"id\": 87,
+    \"beans_variery\": \"Pinto\",
+    \"soaked\": \"Sodium carbonate?\",
+    \"temperature\": 25,
+    \"Humidy\": 75,
+    \"storage_months\": 4,
+    \"cooking_minutes\": 150
+  },
+  {
+    \"id\": 88,
+    \"beans_variery\": \"Red Haricot\",
+    \"soaked\": \"Sodium carbonate\",
+    \"temperature\": 25,
+    \"Humidy\": 75,
+    \"storage_months\": 4,
+    \"cooking_minutes\": 120
+  },
+  {
+    \"id\": 89,
+    \"beans_variery\": \"Pinto\",
+    \"soaked\": \"Not Soaked\",
+    \"temperature\": 25,
+    \"Humidy\": 75,
+    \"storage_months\": 4,
+    \"cooking_minutes\": 300
+  },
+  {
+    \"id\": 90,
+    \"beans_variery\": \"Red Haricot\",
+    \"soaked\": \"Not Soaked\",
+    \"temperature\": 25,
+    \"Humidy\": 75,
+    \"storage_months\": 4,
+    \"cooking_minutes\": 240
+  },
+  {
+    \"id\": 91,
+    \"beans_variery\": \"Pinto\",
+    \"soaked\": \"Not Soaked\",
+    \"temperature\": 25,
+    \"Humidy\": 75,
+    \"storage_months\": 0,
+    \"cooking_minutes\": 180
+  },
+  {
+    \"id\": 92,
+    \"beans_variery\": \"Red Haricot\",
+    \"soaked\": \"Not Soaked\",
+    \"temperature\": 25,
+    \"Humidy\": 75,
+    \"storage_months\": 0,
+    \"cooking_minutes\": 180
+  },
+  {
+    \"id\": 93,
+    \"beans_variery\": \"Pinto\",
+    \"soaked\": \"Sodium carbonate?\",
+    \"temperature\": 25,
+    \"Humidy\": 75,
+    \"storage_months\": 0,
+    \"cooking_minutes\": 30
+  },
+  {
+    \"id\": 94,
+    \"beans_variery\": \"Red Haricot\",
+    \"soaked\": \"Sodium carbonate\",
+    \"temperature\": 25,
+    \"Humidy\": 75,
+    \"storage_months\": 0,
+    \"cooking_minutes\": 30
+  },
+  {
+    \"id\": 95,
+    \"beans_variery\": \"Pinto\",
+    \"soaked\": \"Distilled water\",
+    \"temperature\": 25,
+    \"Humidy\": 75,
+    \"storage_months\": 0,
+    \"cooking_minutes\": 90
+  },
+  {
+    \"id\": 96,
+    \"beans_variery\": \"Red Haricot\",
+    \"soaked\": \"Distilled water\",
+    \"temperature\": 25,
+    \"Humidy\": 75,
+    \"storage_months\": 0,
+    \"cooking_minutes\": 90
+  },
+  {
+    \"id\": 97,
+    \"beans_variery\": \"Rose coco\",
+    \"soaked\": \"Not Soaked\",
+    \"temperature\": 35,
+    \"Humidy\": 75,
+    \"storage_months\": 12,
+    \"cooking_minutes\": 330
+  },
+  {
+    \"id\": 98,
+    \"beans_variery\": \"Canadian wonder\",
+    \"soaked\": \"Not Soaked\",
+    \"temperature\": 35,
+    \"Humidy\": 75,
+    \"storage_months\": 12,
+    \"cooking_minutes\": 360
+  },
+  {
+    \"id\": 99,
+    \"beans_variery\": \"Rose coco\",
+    \"soaked\": \"Sodium carbonate\",
+    \"temperature\": 35,
+    \"Humidy\": 75,
+    \"storage_months\": 12,
+    \"cooking_minutes\": 150
+  },
+  {
+    \"id\": 100,
+    \"beans_variery\": \"Canadian wonder\",
+    \"soaked\": \"Sodium carbonate\",
+    \"temperature\": 35,
+    \"Humidy\": 75,
+    \"storage_months\": 12,
+    \"cooking_minutes\": 180
+  },
+  {
+    \"id\": 101,
+    \"beans_variery\": \"Rose coco\",
+    \"soaked\": \"Distilled water\",
+    \"temperature\": 35,
+    \"Humidy\": 75,
+    \"storage_months\": 12,
+    \"cooking_minutes\": 240
+  },
+  {
+    \"id\": 102,
+    \"beans_variery\": \"Canadian wonder\",
+    \"soaked\": \"Distilled water\",
+    \"temperature\": 35,
+    \"Humidy\": 75,
+    \"storage_months\": 12,
+    \"cooking_minutes\": 270
+  },
+  {
+    \"id\": 103,
+    \"beans_variery\": \"Rose coco\",
+    \"soaked\": \"Not Soaked\",
+    \"temperature\": 35,
+    \"Humidy\": 75,
+    \"storage_months\": 8,
+    \"cooking_minutes\": 300
+  },
+  {
+    \"id\": 104,
+    \"beans_variery\": \"Canadian wonder\",
+    \"soaked\": \"Not Soaked\",
+    \"temperature\": 35,
+    \"Humidy\": 75,
+    \"storage_months\": 8,
+    \"cooking_minutes\": 330
+  },
+  {
+    \"id\": 105,
+    \"beans_variery\": \"Rose coco\",
+    \"soaked\": \"Sodium carbonate\",
+    \"temperature\": 35,
+    \"Humidy\": 75,
+    \"storage_months\": 8,
+    \"cooking_minutes\": 180
+  },
+  {
+    \"id\": 106,
+    \"beans_variery\": \"Canadian wonder\",
+    \"soaked\": \"Sodium carbonate\",
+    \"temperature\": 35,
+    \"Humidy\": 75,
+    \"storage_months\": 8,
+    \"cooking_minutes\": 210
+  },
+  {
+    \"id\": 107,
+    \"beans_variery\": \"Rose coco\",
+    \"soaked\": \"Distilled water\",
+    \"temperature\": 35,
+    \"Humidy\": 75,
+    \"storage_months\": 8,
+    \"cooking_minutes\": 210
+  },
+  {
+    \"id\": 108,
+    \"beans_variery\": \"Canadian wonder\",
+    \"soaked\": \"Distilled water\",
+    \"temperature\": 35,
+    \"Humidy\": 75,
+    \"storage_months\": 8,
+    \"cooking_minutes\": 240
+  },
+  {
+    \"id\": 109,
+    \"beans_variery\": \"Rose coco\",
+    \"soaked\": \"Distilled water\",
+    \"temperature\": 35,
+    \"Humidy\": 75,
+    \"storage_months\": 4,
+    \"cooking_minutes\": 180
+  },
+  {
+    \"id\": 110,
+    \"beans_variery\": \"Canadian wonder\",
+    \"soaked\": \"Distilled water\",
+    \"temperature\": 35,
+    \"Humidy\": 75,
+    \"storage_months\": 4,
+    \"cooking_minutes\": 210
+  },
+  {
+    \"id\": 111,
+    \"beans_variery\": \"Rose coco\",
+    \"soaked\": \"Sodium carbonate\",
+    \"temperature\": 35,
+    \"Humidy\": 75,
+    \"storage_months\": 4,
+    \"cooking_minutes\": 150
+  },
+  {
+    \"id\": 112,
+    \"beans_variery\": \"Canadian wonder\",
+    \"soaked\": \"Sodium carbonate\",
+    \"temperature\": 35,
+    \"Humidy\": 75,
+    \"storage_months\": 4,
+    \"cooking_minutes\": 150
+  },
+  {
+    \"id\": 113,
+    \"beans_variery\": \"Rose coco\",
+    \"soaked\": \"Not Soaked\",
+    \"temperature\": 35,
+    \"Humidy\": 75,
+    \"storage_months\": 4,
+    \"cooking_minutes\": 300
+  },
+  {
+    \"id\": 114,
+    \"beans_variery\": \"Canadian wonder\",
+    \"soaked\": \"Not Soaked\",
+    \"temperature\": 35,
+    \"Humidy\": 75,
+    \"storage_months\": 4,
+    \"cooking_minutes\": 300
+  },
+  {
+    \"id\": 115,
+    \"beans_variery\": \"Rose coco\",
+    \"soaked\": \"Not Soaked\",
+    \"temperature\": 35,
+    \"Humidy\": 75,
+    \"storage_months\": 0,
+    \"cooking_minutes\": 150
+  },
+  {
+    \"id\": 116,
+    \"beans_variery\": \"Canadian wonder\",
+    \"soaked\": \"Not Soaked\",
+    \"temperature\": 35,
+    \"Humidy\": 75,
+    \"storage_months\": 0,
+    \"cooking_minutes\": 150
+  },
+  {
+    \"id\": 117,
+    \"beans_variery\": \"Rose coco\",
+    \"soaked\": \"Sodium carbonate\",
+    \"temperature\": 35,
+    \"Humidy\": 75,
+    \"storage_months\": 0,
+    \"cooking_minutes\": 60
+  },
+  {
+    \"id\": 118,
+    \"beans_variery\": \"Canadian wonder\",
+    \"soaked\": \"Sodium carbonate\",
+    \"temperature\": 35,
+    \"Humidy\": 75,
+    \"storage_months\": 0,
+    \"cooking_minutes\": 30
+  },
+  {
+    \"id\": 119,
+    \"beans_variery\": \"Rose coco\",
+    \"soaked\": \"Distilled water\",
+    \"temperature\": 35,
+    \"Humidy\": 75,
+    \"storage_months\": 0,
+    \"cooking_minutes\": 90
+  },
+  {
+    \"id\": 120,
+    \"beans_variery\": \"Canadian wonder\",
+    \"soaked\": \"Distilled water\",
+    \"temperature\": 35,
+    \"Humidy\": 75,
+    \"storage_months\": 0,
+    \"cooking_minutes\": 120
+  },
+  {
+    \"id\": 121,
+    \"beans_variery\": \"Pinto\",
+    \"soaked\": \"Not Soaked\",
+    \"temperature\": 35,
+    \"Humidy\": 75,
+    \"storage_months\": 12,
+    \"cooking_minutes\": 330
+  },
+  {
+    \"id\": 122,
+    \"beans_variery\": \"Red Haricot\",
+    \"soaked\": \"Not Soaked\",
+    \"temperature\": 35,
+    \"Humidy\": 75,
+    \"storage_months\": 12,
+    \"cooking_minutes\": 270
+  },
+  {
+    \"id\": 123,
+    \"beans_variery\": \"Pinto\",
+    \"soaked\": \"Sodium carbonate\",
+    \"temperature\": 35,
+    \"Humidy\": 75,
+    \"storage_months\": 12,
+    \"cooking_minutes\": 180
+  },
+  {
+    \"id\": 124,
+    \"beans_variery\": \"Red Haricot\",
+    \"soaked\": \"Sodium carbonate\",
+    \"temperature\": 35,
+    \"Humidy\": 75,
+    \"storage_months\": 12,
+    \"cooking_minutes\": 150
+  },
+  {
+    \"id\": 125,
+    \"beans_variery\": \"Pinto\",
+    \"soaked\": \"Distilled water\",
+    \"temperature\": 35,
+    \"Humidy\": 75,
+    \"storage_months\": 12,
+    \"cooking_minutes\": 240
+  },
+  {
+    \"id\": 126,
+    \"beans_variery\": \"Red Haricot\",
+    \"soaked\": \"Distilled water\",
+    \"temperature\": 35,
+    \"Humidy\": 75,
+    \"storage_months\": 12,
+    \"cooking_minutes\": 210
+  },
+  {
+    \"id\": 127,
+    \"beans_variery\": \"Pinto\",
+    \"soaked\": \"Not Soaked\",
+    \"temperature\": 35,
+    \"Humidy\": 75,
+    \"storage_months\": 8,
+    \"cooking_minutes\": 300
+  },
+  {
+    \"id\": 128,
+    \"beans_variery\": \"Red Haricot\",
+    \"soaked\": \"Not Soaked\",
+    \"temperature\": 35,
+    \"Humidy\": 75,
+    \"storage_months\": 8,
+    \"cooking_minutes\": 270
+  },
+  {
+    \"id\": 129,
+    \"beans_variery\": \"Pinto\",
+    \"soaked\": \"Sodium carbonate\",
+    \"temperature\": 35,
+    \"Humidy\": 75,
+    \"storage_months\": 8,
+    \"cooking_minutes\": 180
+  },
+  {
+    \"id\": 130,
+    \"beans_variery\": \"Red Haricot\",
+    \"soaked\": \"Sodium carbonate\",
+    \"temperature\": 35,
+    \"Humidy\": 75,
+    \"storage_months\": 8,
+    \"cooking_minutes\": 150
+  },
+  {
+    \"id\": 131,
+    \"beans_variery\": \"Pinto\",
+    \"soaked\": \"Distilled water\",
+    \"temperature\": 35,
+    \"Humidy\": 75,
+    \"storage_months\": 8,
+    \"cooking_minutes\": 210
+  },
+  {
+    \"id\": 132,
+    \"beans_variery\": \"Red Haricot\",
+    \"soaked\": \"Distilled water\",
+    \"temperature\": 35,
+    \"Humidy\": 75,
+    \"storage_months\": 8,
+    \"cooking_minutes\": 180
+  },
+  {
+    \"id\": 133,
+    \"beans_variery\": \"Pinto\",
+    \"soaked\": \"Distilled water\",
+    \"temperature\": 35,
+    \"Humidy\": 75,
+    \"storage_months\": 4,
+    \"cooking_minutes\": 180
+  },
+  {
+    \"id\": 134,
+    \"beans_variery\": \"Red Haricot\",
+    \"soaked\": \"Distilled water\",
+    \"temperature\": 35,
+    \"Humidy\": 75,
+    \"storage_months\": 4,
+    \"cooking_minutes\": 150
+  },
+  {
+    \"id\": 135,
+    \"beans_variery\": \"Pinto\",
+    \"soaked\": \"Sodium carbonate\",
+    \"temperature\": 35,
+    \"Humidy\": 75,
+    \"storage_months\": 4,
+    \"cooking_minutes\": 150
+  },
+  {
+    \"id\": 136,
+    \"beans_variery\": \"Red Haricot\",
+    \"soaked\": \"Sodium carbonate\",
+    \"temperature\": 35,
+    \"Humidy\": 75,
+    \"storage_months\": 4,
+    \"cooking_minutes\": 135
+  },
+  {
+    \"id\": 137,
+    \"beans_variery\": \"Pinto\",
+    \"soaked\": \"Not Soaked\",
+    \"temperature\": 35,
+    \"Humidy\": 75,
+    \"storage_months\": 4,
+    \"cooking_minutes\": 270
+  },
+  {
+    \"id\": 138,
+    \"beans_variery\": \"Red Haricot\",
+    \"soaked\": \"Not Soaked\",
+    \"temperature\": 35,
+    \"Humidy\": 75,
+    \"storage_months\": 4,
+    \"cooking_minutes\": 240
+  },
+  {
+    \"id\": 139,
+    \"beans_variery\": \"Pinto\",
+    \"soaked\": \"Not Soaked\",
+    \"temperature\": 35,
+    \"Humidy\": 75,
+    \"storage_months\": 0,
+    \"cooking_minutes\": 180
+  },
+  {
+    \"id\": 140,
+    \"beans_variery\": \"Red Haricot\",
+    \"soaked\": \"Not Soaked\",
+    \"temperature\": 35,
+    \"Humidy\": 75,
+    \"storage_months\": 0,
+    \"cooking_minutes\": 180
+  },
+  {
+    \"id\": 141,
+    \"beans_variery\": \"Pinto\",
+    \"soaked\": \"Sodium carbonate\",
+    \"temperature\": 35,
+    \"Humidy\": 75,
+    \"storage_months\": 0,
+    \"cooking_minutes\": 30
+  },
+  {
+    \"id\": 142,
+    \"beans_variery\": \"Red Haricot\",
+    \"soaked\": \"Sodium carbonate\",
+    \"temperature\": 35,
+    \"Humidy\": 75,
+    \"storage_months\": 0,
+    \"cooking_minutes\": 30
+  },
+  {
+    \"id\": 143,
+    \"beans_variery\": \"Pinto\",
+    \"soaked\": \"Distilled water\",
+    \"temperature\": 35,
+    \"Humidy\": 75,
+    \"storage_months\": 0,
+    \"cooking_minutes\": 90
+  },
+  {
+    \"id\": 144,
+    \"beans_variery\": \"Red Haricot\",
+    \"soaked\": \"Distilled water\",
+    \"temperature\": 35,
+    \"Humidy\": 75,
+    \"storage_months\": 0,
+    \"cooking_minutes\": 90
+  },
+  {
+    \"id\": 145,
+    \"beans_variery\": \"Rose coco\",
+    \"soaked\": \"Distilled water\",
+    \"temperature\": 35,
+    \"Humidy\": 85,
+    \"storage_months\": 6,
+    \"cooking_minutes\": 240
+  },
+  {
+    \"id\": 146,
+    \"beans_variery\": \"Canadian wonder\",
+    \"soaked\": \"distilled water\",
+    \"temperature\": 35,
+    \"Humidy\": 85,
+    \"storage_months\": 6,
+    \"cooking_minutes\": 270
+  },
+  {
+    \"id\": 147,
+    \"beans_variery\": \"Rose coco\",
+    \"soaked\": \"Sodium carbonate\",
+    \"temperature\": 35,
+    \"Humidy\": 85,
+    \"storage_months\": 6,
+    \"cooking_minutes\": 180
+  },
+  {
+    \"id\": 148,
+    \"beans_variery\": \"Canadian wonder\",
+    \"soaked\": \"Sodium carbonate\",
+    \"temperature\": 35,
+    \"Humidy\": 85,
+    \"storage_months\": 6,
+    \"cooking_minutes\": 180
+  },
+  {
+    \"id\": 149,
+    \"beans_variery\": \"Rose coco\",
+    \"soaked\": \"Not Soaked\",
+    \"temperature\": 35,
+    \"Humidy\": 85,
+    \"storage_months\": 6,
+    \"cooking_minutes\": 390
+  },
+  {
+    \"id\": 150,
+    \"beans_variery\": \"Canadian wonder\",
+    \"soaked\": \"Not Soaked\",
+    \"temperature\": 35,
+    \"Humidy\": 85,
+    \"storage_months\": 6,
+    \"cooking_minutes\": 420
+  },
+  {
+    \"id\": 151,
+    \"beans_variery\": \"Rose coco\",
+    \"soaked\": \"Distilled water\",
+    \"temperature\": 35,
+    \"Humidy\": 85,
+    \"storage_months\": 4,
+    \"cooking_minutes\": 150
+  },
+  {
+    \"id\": 152,
+    \"beans_variery\": \"Canadian wonder\",
+    \"soaked\": \"Distilled water\",
+    \"temperature\": 35,
+    \"Humidy\": 85,
+    \"storage_months\": 4,
+    \"cooking_minutes\": 180
+  },
+  {
+    \"id\": 153,
+    \"beans_variery\": \"Rose coco\",
+    \"soaked\": \"Sodium carbonate\",
+    \"temperature\": 35,
+    \"Humidy\": 85,
+    \"storage_months\": 4,
+    \"cooking_minutes\": 135
+  },
+  {
+    \"id\": 154,
+    \"beans_variery\": \"Canadian wonder\",
+    \"soaked\": \"Sodium carbonate\",
+    \"temperature\": 35,
+    \"Humidy\": 85,
+    \"storage_months\": 4,
+    \"cooking_minutes\": 150
+  },
+  {
+    \"id\": 155,
+    \"beans_variery\": \"Rose coco\",
+    \"soaked\": \"Not Soaked\",
+    \"temperature\": 35,
+    \"Humidy\": 85,
+    \"storage_months\": 4,
+    \"cooking_minutes\": 240
+  },
+  {
+    \"id\": 156,
+    \"beans_variery\": \"Canadian wonder\",
+    \"soaked\": \"Not Soaked\",
+    \"temperature\": 35,
+    \"Humidy\": 85,
+    \"storage_months\": 4,
+    \"cooking_minutes\": 270
+  },
+  {
+    \"id\": 157,
+    \"beans_variery\": \"Rose coco\",
+    \"soaked\": \"Distilled water\",
+    \"temperature\": 35,
+    \"Humidy\": 85,
+    \"storage_months\": 2,
+    \"cooking_minutes\": 150
+  },
+  {
+    \"id\": 158,
+    \"beans_variery\": \"Canadian wonder\",
+    \"soaked\": \"Distilled water\",
+    \"temperature\": 35,
+    \"Humidy\": 85,
+    \"storage_months\": 2,
+    \"cooking_minutes\": 180
+  },
+  {
+    \"id\": 159,
+    \"beans_variery\": \"Rose coco\",
+    \"soaked\": \"Sodium carbonate\",
+    \"temperature\": 35,
+    \"Humidy\": 85,
+    \"storage_months\": 2,
+    \"cooking_minutes\": 120
+  },
+  {
+    \"id\": 160,
+    \"beans_variery\": \"Canadian wonder\",
+    \"soaked\": \"Sodium carbonate\",
+    \"temperature\": 35,
+    \"Humidy\": 85,
+    \"storage_months\": 2,
+    \"cooking_minutes\": 135
+  },
+  {
+    \"id\": 161,
+    \"beans_variery\": \"Rose coco\",
+    \"soaked\": \"Not Soaked\",
+    \"temperature\": 35,
+    \"Humidy\": 85,
+    \"storage_months\": 2,
+    \"cooking_minutes\": 270
+  },
+  {
+    \"id\": 162,
+    \"beans_variery\": \"Canadian wonder\",
+    \"soaked\": \"Not Soaked\",
+    \"temperature\": 35,
+    \"Humidy\": 85,
+    \"storage_months\": 2,
+    \"cooking_minutes\": 300
+  },
+  {
+    \"id\": 163,
+    \"beans_variery\": \"Rose coco\",
+    \"soaked\": \"Not Soaked\",
+    \"temperature\": 35,
+    \"Humidy\": 85,
+    \"storage_months\": 0,
+    \"cooking_minutes\": 150
+  },
+  {
+    \"id\": 164,
+    \"beans_variery\": \"Canadian wonder\",
+    \"soaked\": \"Not Soaked\",
+    \"temperature\": 35,
+    \"Humidy\": 85,
+    \"storage_months\": 0,
+    \"cooking_minutes\": 150
+  },
+  {
+    \"id\": 165,
+    \"beans_variery\": \"Rose coco\",
+    \"soaked\": \"Sodium carbonate\",
+    \"temperature\": 35,
+    \"Humidy\": 85,
+    \"storage_months\": 0,
+    \"cooking_minutes\": 60
+  },
+  {
+    \"id\": 166,
+    \"beans_variery\": \"Canadian wonder\",
+    \"soaked\": \"Sodium carbonate\",
+    \"temperature\": 35,
+    \"Humidy\": 85,
+    \"storage_months\": 0,
+    \"cooking_minutes\": 30
+  },
+  {
+    \"id\": 167,
+    \"beans_variery\": \"Rose coco\",
+    \"soaked\": \"Distilled water\",
+    \"temperature\": 35,
+    \"Humidy\": 85,
+    \"storage_months\": 0,
+    \"cooking_minutes\": 90
+  },
+  {
+    \"id\": 168,
+    \"beans_variery\": \"Canadian wonder\",
+    \"soaked\": \"Distilled water\",
+    \"temperature\": 35,
+    \"Humidy\": 85,
+    \"storage_months\": 0,
+    \"cooking_minutes\": 120
+  },
+  {
+    \"id\": 169,
+    \"beans_variery\": \"Pinto\",
+    \"soaked\": \"Distilled water\",
+    \"temperature\": 35,
+    \"Humidy\": 85,
+    \"storage_months\": 6,
+    \"cooking_minutes\": 180
+  },
+  {
+    \"id\": 170,
+    \"beans_variery\": \"Red Haricot\",
+    \"soaked\": \"Distilled water\",
+    \"temperature\": 35,
+    \"Humidy\": 85,
+    \"storage_months\": 6,
+    \"cooking_minutes\": 180
+  },
+  {
+    \"id\": 171,
+    \"beans_variery\": \"Pinto\",
+    \"soaked\": \"Sodium carbonate\",
+    \"temperature\": 35,
+    \"Humidy\": 85,
+    \"storage_months\": 6,
+    \"cooking_minutes\": 120
+  },
+  {
+    \"id\": 172,
+    \"beans_variery\": \"Red Haricot\",
+    \"soaked\": \"Sodium carbonate\",
+    \"temperature\": 35,
+    \"Humidy\": 85,
+    \"storage_months\": 6,
+    \"cooking_minutes\": 120
+  },
+  {
+    \"id\": 173,
+    \"beans_variery\": \"Pinto\",
+    \"soaked\": \"Not Soaked\",
+    \"temperature\": 35,
+    \"Humidy\": 85,
+    \"storage_months\": 6,
+    \"cooking_minutes\": 330
+  },
+  {
+    \"id\": 174,
+    \"beans_variery\": \"Red Haricot\",
+    \"soaked\": \"Not Soaked\",
+    \"temperature\": 35,
+    \"Humidy\": 85,
+    \"storage_months\": 6,
+    \"cooking_minutes\": 270
+  },
+  {
+    \"id\": 175,
+    \"beans_variery\": \"Pinto\",
+    \"soaked\": \"Distilled water\",
+    \"temperature\": 35,
+    \"Humidy\": 85,
+    \"storage_months\": 4,
+    \"cooking_minutes\": 180
+  },
+  {
+    \"id\": 176,
+    \"beans_variery\": \"Red Haricot\",
+    \"soaked\": \"Distilled water\",
+    \"temperature\": 35,
+    \"Humidy\": 85,
+    \"storage_months\": 4,
+    \"cooking_minutes\": 180
+  },
+  {
+    \"id\": 177,
+    \"beans_variery\": \"Pinto\",
+    \"soaked\": \"Sodium carbonate?\",
+    \"temperature\": 35,
+    \"Humidy\": 85,
+    \"storage_months\": 4,
+    \"cooking_minutes\": 105
+  },
+  {
+    \"id\": 178,
+    \"beans_variery\": \"Red Haricot\",
+    \"soaked\": \"Sodium carbonate\",
+    \"temperature\": 35,
+    \"Humidy\": 85,
+    \"storage_months\": 4,
+    \"cooking_minutes\": 90
+  },
+  {
+    \"id\": 179,
+    \"beans_variery\": \"Pinto\",
+    \"soaked\": \"Not Soaked\",
+    \"temperature\": 35,
+    \"Humidy\": 85,
+    \"storage_months\": 4,
+    \"cooking_minutes\": 270
+  },
+  {
+    \"id\": 180,
+    \"beans_variery\": \"Red Haricot\",
+    \"soaked\": \"Not Soaked\",
+    \"temperature\": 35,
+    \"Humidy\": 85,
+    \"storage_months\": 4,
+    \"cooking_minutes\": 240
+  },
+  {
+    \"id\": 181,
+    \"beans_variery\": \"Pinto\",
+    \"soaked\": \"Distilled water\",
+    \"temperature\": 35,
+    \"Humidy\": 85,
+    \"storage_months\": 2,
+    \"cooking_minutes\": 150
+  },
+  {
+    \"id\": 182,
+    \"beans_variery\": \"Red Haricot\",
+    \"soaked\": \"Distilled water\",
+    \"temperature\": 35,
+    \"Humidy\": 85,
+    \"storage_months\": 2,
+    \"cooking_minutes\": 150
+  },
+  {
+    \"id\": 183,
+    \"beans_variery\": \"Pinto\",
+    \"soaked\": \"Sodium carbonate\",
+    \"temperature\": 35,
+    \"Humidy\": 85,
+    \"storage_months\": 2,
+    \"cooking_minutes\": 135
+  },
+  {
+    \"id\": 184,
+    \"beans_variery\": \"Red Haricot\",
+    \"soaked\": \"Sodium carbonate\",
+    \"temperature\": 35,
+    \"Humidy\": 85,
+    \"storage_months\": 2,
+    \"cooking_minutes\": 90
+  },
+  {
+    \"id\": 185,
+    \"beans_variery\": \"Pinto\",
+    \"soaked\": \"Not Soaked\",
+    \"temperature\": 35,
+    \"Humidy\": 85,
+    \"storage_months\": 2,
+    \"cooking_minutes\": 240
+  },
+  {
+    \"id\": 186,
+    \"beans_variery\": \"Red Haricot\",
+    \"soaked\": \"Not Soaked\",
+    \"temperature\": 35,
+    \"Humidy\": 85,
+    \"storage_months\": 2,
+    \"cooking_minutes\": 210
+  },
+  {
+    \"id\": 187,
+    \"beans_variery\": \"Pinto\",
+    \"soaked\": \"Not Soaked\",
+    \"temperature\": 35,
+    \"Humidy\": 85,
+    \"storage_months\": 0,
+    \"cooking_minutes\": 180
+  },
+  {
+    \"id\": 188,
+    \"beans_variery\": \"Red Haricot\",
+    \"soaked\": \"Not Soaked\",
+    \"temperature\": 35,
+    \"Humidy\": 85,
+    \"storage_months\": 0,
+    \"cooking_minutes\": 180
+  },
+  {
+    \"id\": 189,
+    \"beans_variery\": \"Pinto\",
+    \"soaked\": \"Sodium carbonate\",
+    \"temperature\": 35,
+    \"Humidy\": 85,
+    \"storage_months\": 0,
+    \"cooking_minutes\": 30
+  },
+  {
+    \"id\": 190,
+    \"beans_variery\": \"Red Haricot\",
+    \"soaked\": \"Sodium carbonate\",
+    \"temperature\": 35,
+    \"Humidy\": 85,
+    \"storage_months\": 0,
+    \"cooking_minutes\": 30
+  },
+  {
+    \"id\": 191,
+    \"beans_variery\": \"Pinto\",
+    \"soaked\": \"Distilled water\",
+    \"temperature\": 35,
+    \"Humidy\": 85,
+    \"storage_months\": 0,
+    \"cooking_minutes\": 90
+  },
+  {
+    \"id\": 192,
+    \"beans_variery\": \"Red Haricot\",
+    \"soaked\": \"Distilled water\",
+    \"temperature\": 35,
+    \"Humidy\": 85,
+    \"storage_months\": 0,
+    \"cooking_minutes\": 90
+  }
+]</string>
 </resources>
