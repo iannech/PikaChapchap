@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Pikachapchap</string>
+
+    <string name="beans_prompt">Choose Beans</string>
+    <string-array name="beans_array">
+        <item>Rose coco</item>
+        <item>Canadian wonder</item>
+        <item>Pinto</item>
+        <item>red Haricot</item>
+
+    </string-array>
+</resources>
